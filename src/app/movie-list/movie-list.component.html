@@ -1,0 +1,15 @@
+@if (store.loading()) {
+  <div class="loading-container">
+    <mat-spinner [diameter]="40"></mat-spinner>
+  </div>
+} @else if (store.status() === status.Error) {
+  <span>The request failed: {{ store.error() }}</span>
+  <button (click)="store.reload()">Retry</button>
+} @else {
+  <div class="movie-list">
+    <h1>All Movies</h1>
+    @for (movie of store.movies(); track movie.id; let  i = $index) {
+      <app-movie-details [movie]="movie" (markAsWatched)="markAsWatched($event)" (toggleFav)="toggleFav($event)" />
+    }
+  </div>
+}

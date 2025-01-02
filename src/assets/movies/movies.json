@@ -1,0 +1,439 @@
+{
+  "movies": [
+    {
+      "id": "d1",
+      "title": "The Shawshank Redemption",
+      "image": "200x300?text=Shawshank",
+      "genre": "Drama",
+      "desc": "Andy Dufresne, a banker wrongly convicted of murder, forms a deep friendship with fellow inmate Red while serving his life sentence at Shawshank State Penitentiary. Over two decades, Andy maintains his innocence while dealing with the brutal realities of prison life, corrupt officials, and his own quest for justice and redemption. Through acts of hope and perseverance, he transforms the lives of those around him and ultimately achieves what seemed impossible.",
+      "rating": {
+        "rate": 9.3,
+        "votes": 250000
+      },
+      "releaseDate": "1994-09-23",
+      "cast": "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler, Clancy Brown, Gil Bellows",
+      "isFav": true,
+      "isWatched": true
+    },
+    {
+      "id": "d2",
+      "title": "The Godfather",
+      "image": "200x300?text=Godfather",
+      "genre": "Drama",
+      "desc": "The Godfather follows the Corleone family under patriarch Vito Corleone, focusing on the transformation of his youngest son Michael from reluctant family outsider to ruthless Mafia boss. When an attempt is made on his father's life, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge that transforms him into the head of the most powerful mafia family in the country.",
+      "rating": {
+        "rate": 9.2,
+        "votes": 18350
+      },
+      "releaseDate": "1972-03-24",
+      "cast": "Marlon Brando, Al Pacino, James Caan, Richard Castellano, Robert Duvall, Diane Keaton",
+      "isFav": false,
+      "isWatched": true
+    },
+    {
+      "id": "d3",
+      "title": "Forrest Gump",
+      "image": "200x300?text=ForrestGump",
+      "genre": "Drama",
+      "desc": "Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him. The story follows his life through several decades of American history, from his childhood in Alabama, his experiences in Vietnam, and his various adventures that somehow intersect with major historical events while he tries to find his place in the world.",
+      "rating": {
+        "rate": 8.8,
+        "votes": 19100
+      },
+      "releaseDate": "1994-07-06",
+      "cast": "Tom Hanks, Robin Wright, Gary Sinise, Sally Field, Rebecca Williams, Michael Conner Humphreys",
+      "isFav": false,
+      "isWatched": true
+    },
+    {
+      "id": "c1",
+      "title": "The Hangover",
+      "image": "200x300?text=Hangover",
+      "genre": "Comedy",
+      "desc": "Two days before his wedding, Doug and his three friends drive to Las Vegas for a wild bachelor party. The next morning, the three groomsmen wake up with no memory of the previous night and find Doug missing. With little time to spare, the trio must retrace their hazy steps and find Doug in time to get him back to Los Angeles for his wedding, encountering increasingly bizarre situations and characters from their forgotten night.",
+      "rating": {
+        "rate": 7.7,
+        "votes": 750000
+      },
+      "releaseDate": "2009-06-05",
+      "cast": "Bradley Cooper, Ed Helms, Zach Galifianakis, Justin Bartha, Heather Graham, Ken Jeong",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "c2",
+      "title": "Pulp Fiction",
+      "image": "200x300?text=PulpFiction",
+      "genre": "Comedy",
+      "desc": "Jules Winnfield and Vincent Vega are two hitmen out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace. Wallace has also asked Vincent to take his wife Mia out a few days later when Wallace himself will be out of town. Butch Coolidge is an aging boxer who is paid by Wallace to lose his next fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.",
+      "rating": {
+        "rate": 8.9,
+        "votes": 190000
+      },
+      "releaseDate": "1994-10-14",
+      "cast": "John Travolta, Samuel L. Jackson, Uma Thurman, Bruce Willis, Ving Rhames, Tim Roth",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "h1",
+      "title": "The Shining",
+      "image": "200x300?text=Shining",
+      "genre": "Horror",
+      "desc": "Jack Torrance becomes winter caretaker at the isolated Overlook Hotel in Colorado, hoping to cure his writer's block. He settles in along with his wife, Wendy, and his son, Danny, who is plagued by psychic premonitions. As Jack's writing goes nowhere and Danny's visions become more disturbing, Jack discovers the hotel's dark secrets and begins to unravel into a homicidal maniac hell-bent on terrorizing his family.",
+      "rating": {
+        "rate": 8.4,
+        "votes": 90000
+      },
+      "releaseDate": "1980-05-23",
+      "cast": "Jack Nicholson, Shelley Duvall, Danny Lloyd, Scatman Crothers, Barry Nelson, Philip Stone",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "h2",
+      "title": "Alien",
+      "image": "200x300?text=Alien",
+      "genre": "Horror",
+      "desc": "When commercial towing vehicle Nostromo, heading back to Earth, intercepts an SOS signal from a distant planet, the crew is under obligation to investigate. After a rough landing, three crew members leave the ship to explore the planet. They discover a derelict alien ship and a huge chamber inside, containing thousands of eggs. When a face-hugger parasite emerges from one of the eggs and attacks, they realize they are not alone.",
+      "rating": {
+        "rate": 8.5,
+        "votes": 85000
+      },
+      "releaseDate": "1979-05-25",
+      "cast": "Sigourney Weaver, Tom Skerritt, John Hurt, Veronica Cartwright, Harry Dean Stanton",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "a1",
+      "title": "Die Hard",
+      "image": "200x300?text=DieHard",
+      "genre": "Action",
+      "desc": "On Christmas Eve, New York City detective John McClane arrives in Los Angeles to reconcile with his estranged wife at her company's holiday party in the Nakatomi Plaza. The festivities are interrupted by a group of heavily armed criminals led by Hans Gruber, who take over the building and hold the partygoers hostage. McClane manages to escape detection and must now wage a one-man war against the terrorists while trying to save his wife and the other hostages.",
+      "rating": {
+        "rate": 8.2,
+        "votes": 80000
+      },
+      "releaseDate": "1988-07-20",
+      "cast": "Bruce Willis, Alan Rickman, Alexander Godunov, Bonnie Bedelia, Reginald VelJohnson",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "a2",
+      "title": "The Matrix",
+      "image": "200x300?text=Matrix",
+      "genre": "Action",
+      "desc": "Thomas Anderson, a computer programmer who goes by the hacker alias 'Neo', discovers that the world he knows is actually a simulation called the Matrix, created by sentient machines to subdue the human population. He joins a rebellion to free humanity, learning that he may be the prophesied 'One' who can end the war between humans and machines. As Neo masters his newfound abilities to manipulate the Matrix, he must confront powerful agents and face the truth about his role in humanity's future.",
+      "rating": {
+        "rate": 8.7,
+        "votes": 170000
+      },
+      "releaseDate": "1999-03-31",
+      "cast": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving, Joe Pantoliano",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "t1",
+      "title": "Inception",
+      "image": "200x300?text=Inception",
+      "genre": "Thriller",
+      "desc": "Dom Cobb is a skilled thief with the rare ability to 'extract' information from people's minds while they're dreaming. His rare talent has made him a coveted player in this treacherous new world of corporate espionage, but it has also made him an international fugitive and cost him everything he loves. Now Cobb is being offered a chance at redemption. One last job could give him his life back but only if he can accomplish the impossible: inception, the implantation of another person's idea into a target's subconscious.",
+      "rating": {
+        "rate": 8.8,
+        "votes": 21050
+      },
+      "releaseDate": "2010-07-16",
+      "cast": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy, Ken Watanabe, Michael Caine",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "t2",
+      "title": "Se7en",
+      "image": "200x300?text=Se7en",
+      "genre": "Thriller",
+      "desc": "When retiring police Detective William Somerset tackles a final case with the aid of newly transferred David Mills, they discover a number of elaborate and gruesome murders. They soon realize they are dealing with a serial killer who is targeting people he thinks represent the seven deadly sins. Somerset and Mills race to prevent the next crime, but they are always one step behind the meticulous killer.",
+      "rating": {
+        "rate": 8.6,
+        "votes": 15000
+      },
+      "releaseDate": "1995-09-22",
+      "cast": "Brad Pitt, Morgan Freeman, Gwyneth Paltrow, Kevin Spacey, R. Lee Ermey",
+      "isFav": true,
+      "isWatched": true
+    },
+    {
+      "id": "an1",
+      "title": "Toy Story",
+      "image": "200x300?text=ToyStory",
+      "genre": "Animation",
+      "desc": "Woody, a good-hearted cowboy doll who belongs to a young boy named Andy, sees his position as Andy's favorite toy threatened when his parents buy him a Buzz Lightyear action figure. Even worse, the arrogant Buzz thinks he's a real spaceman on a mission to return to his home planet. When Andy's family moves to a new house, Woody and Buzz must escape the clutches of maladjusted neighbor Sid Phillips and reunite with their boy.",
+      "rating": {
+        "rate": 8.3,
+        "votes": 9000
+      },
+      "releaseDate": "1995-11-22",
+      "cast": "Tom Hanks, Tim Allen, Don Rickles, Jim Varney, Wallace Shawn, John Ratzenberger",
+      "isFav": true,
+      "isWatched": true
+    },
+    {
+      "id": "an2",
+      "title": "Spirited Away",
+      "image": "200x300?text=SpiritedAway",
+      "genre": "Animation",
+      "desc": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, where humans are changed into beasts. When her parents are transformed into pigs by the witch Yubaba, Chihiro must work at Yubaba's bathhouse to find a way to free herself and her parents and return to the human world. As she works, she matures from an easily-scared girl to a capable individual who has learned to care for others and work hard.",
+      "rating": {
+        "rate": 8.6,
+        "votes": 71500
+      },
+      "releaseDate": "2001-07-20",
+      "cast": "Rumi Hiiragi, Miyu Irino, Mari Natsuki, Takashi Naito, Yasuko Sawaguchi",
+      "isFav": false,
+      "isWatched": true
+    },
+    {
+      "id": "d6",
+      "title": "The Green Mile",
+      "image": "200x300?text=GreenMile",
+      "type": "Drama",
+      "desc": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
+      "rating": { "rate": 8.6, "votes": 1200000 },
+      "releaseDate": "1999-12-10",
+      "cast": "Tom Hanks, Michael Clarke Duncan, David Morse",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "d7",
+      "title": "Good Will Hunting",
+      "image": "200x300?text=GoodWillHunting",
+      "type": "Drama",
+      "desc": "Will Hunting, a janitor at M.I.T., has a gift for mathematics, but needs help from a psychologist to find direction in his life and deal with his past.",
+      "rating": { "rate": 8.3, "votes": 900000 },
+      "releaseDate": "1997-12-05",
+      "cast": "Matt Damon, Robin Williams, Ben Affleck",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "d8",
+      "title": "The Pianist",
+      "image": "200x300?text=Pianist",
+      "type": "Drama",
+      "desc": "A brilliant Polish musician struggles to survive the destruction of the Warsaw ghetto during WWII.",
+      "rating": { "rate": 8.5, "votes": 780000 },
+      "releaseDate": "2002-09-24",
+      "cast": "Adrien Brody, Thomas Kretschmann",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "d9",
+      "title": "A Beautiful Mind",
+      "image": "200x300?text=BeautifulMind",
+      "type": "Drama",
+      "desc": "After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish.",
+      "rating": { "rate": 8.2, "votes": 850000 },
+      "releaseDate": "2001-12-21",
+      "cast": "Russell Crowe, Ed Harris, Jennifer Connelly",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "d10",
+      "title": "The Departed",
+      "image": "200x300?text=Departed",
+      "type": "Drama",
+      "desc": "An undercover state cop infiltrates an Irish gang and another member of the gang has infiltrated the police department.",
+      "rating": { "rate": 8.5, "votes": 1200000 },
+      "releaseDate": "2006-10-06",
+      "cast": "Leonardo DiCaprio, Matt Damon, Jack Nicholson",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "c4",
+      "title": "Monty Python and the Holy Grail",
+      "image": "200x300?text=HolyGrail",
+      "type": "Comedy",
+      "desc": "King Arthur and his Knights of the Round Table embark on a surreal, low-budget search for the Holy Grail, encountering many, very silly obstacles.",
+      "rating": { "rate": 8.2, "votes": 500000 },
+      "releaseDate": "1975-05-25",
+      "cast": "Graham Chapman, John Cleese, Eric Idle",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "c5",
+      "title": "Airplane!",
+      "image": "200x300?text=Airplane",
+      "type": "Comedy",
+      "desc": "A man with a fear of flying must ensure a plane lands safely when the crew becomes sick from food poisoning.",
+      "rating": { "rate": 7.7, "votes": 220000 },
+      "releaseDate": "1980-07-02",
+      "cast": "Robert Hays, Julie Hagerty, Leslie Nielsen",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "c6",
+      "title": "This Is Spinal Tap",
+      "image": "200x300?text=SpinalTap",
+      "type": "Comedy",
+      "desc": "Spinal Tap, one of England's loudest bands, is chronicled by film director Marty DiBergi on what proves to be a fateful tour.",
+      "rating": { "rate": 7.9, "votes": 130000 },
+      "releaseDate": "1984-05-04",
+      "cast": "Christopher Guest, Michael McKean, Harry Shearer",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "h4",
+      "title": "Alien",
+      "image": "200x300?text=Alien",
+      "type": "Horror",
+      "desc": "After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form.",
+      "rating": { "rate": 8.4, "votes": 800000 },
+      "releaseDate": "1979-05-25",
+      "cast": "Sigourney Weaver, Tom Skerritt, John Hurt",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "h5",
+      "title": "The Babadook",
+      "image": "200x300?text=Babadook",
+      "type": "Horror",
+      "desc": "A widowed mother, plagued by the violent death of her husband, battles with her son's fear of a monster lurking in the house.",
+      "rating": { "rate": 6.8, "votes": 200000 },
+      "releaseDate": "2014-05-22",
+      "cast": "Essie Davis, Noah Wiseman",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "h6",
+      "title": "The Conjuring",
+      "image": "200x300?text=Conjuring",
+      "type": "Horror",
+      "desc": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
+      "rating": { "rate": 7.5, "votes": 450000 },
+      "releaseDate": "2013-07-19",
+      "cast": "Patrick Wilson, Vera Farmiga, Ron Livingston",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "a4",
+      "title": "The Dark Knight",
+      "image": "200x300?text=DarkKnight",
+      "type": "Action",
+      "desc": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "rating": { "rate": 9.0, "votes": 2400000 },
+      "releaseDate": "2008-07-18",
+      "cast": "Christian Bale, Heath Ledger, Aaron Eckhart",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "a5",
+      "title": "Gladiator",
+      "image": "200x300?text=Gladiator",
+      "type": "Action",
+      "desc": "When a Roman General is betrayed and his family murdered by an emperor's corrupt son, he comes to Rome as a gladiator to seek revenge.",
+      "rating": { "rate": 8.5, "votes": 1300000 },
+      "releaseDate": "2000-05-05",
+      "cast": "Russell Crowe, Joaquin Phoenix, Connie Nielsen",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "a6",
+      "title": "Kill Bill: Vol. 1",
+      "image": "200x300?text=KillBill",
+      "type": "Action",
+      "desc": "After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
+      "rating": { "rate": 8.1, "votes": 1000000 },
+      "releaseDate": "2003-10-10",
+      "cast": "Uma Thurman, Lucy Liu, Vivica A. Fox",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "t4",
+      "title": "The Silence of the Lambs",
+      "image": "200x300?text=SilenceLambs",
+      "type": "Thriller",
+      "desc": "A young F.B.I. cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer, a madman who skins his victims.",
+      "rating": { "rate": 8.6, "votes": 1300000 },
+      "releaseDate": "1991-02-14",
+      "cast": "Jodie Foster, Anthony Hopkins, Scott Glenn",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "t5",
+      "title": "Prisoners",
+      "image": "200x300?text=Prisoners",
+      "type": "Thriller",
+      "desc": "When Keller Dover's daughter and her friend go missing, he takes matters into his own hands as the police pursue multiple leads and the pressure mounts.",
+      "rating": { "rate": 8.1, "votes": 600000 },
+      "releaseDate": "2013-09-20",
+      "cast": "Hugh Jackman, Jake Gyllenhaal, Viola Davis",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "t6",
+      "title": "Zodiac",
+      "image": "200x300?text=Zodiac",
+      "type": "Thriller",
+      "desc": "In the late 1960s/early 1970s, a San Francisco cartoonist becomes an amateur detective obsessed with tracking down the Zodiac Killer.",
+      "rating": { "rate": 7.7, "votes": 500000 },
+      "releaseDate": "2007-03-02",
+      "cast": "Jake Gyllenhaal, Robert Downey Jr., Mark Ruffalo",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "an4",
+      "title": "The Lion King",
+      "image": "200x300?text=LionKing",
+      "type": "Animation",
+      "desc": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+      "rating": { "rate": 8.5, "votes": 950000 },
+      "releaseDate": "1994-06-24",
+      "cast": "Matthew Broderick, James Earl Jones, Jeremy Irons",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "an5",
+      "title": "WALL·E",
+      "image": "200x300?text=WALLE",
+      "type": "Animation",
+      "desc": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+      "rating": { "rate": 8.4, "votes": 1000000 },
+      "releaseDate": "2008-06-27",
+      "cast": "Ben Burtt, Elissa Knight, Jeff Garlin",
+      "isFav": false,
+      "isWatched": false
+    },
+    {
+      "id": "an6",
+      "title": "Princess Mononoke",
+      "image": "200x300?text=Mononoke",
+      "type": "Animation",
+      "desc": "On a journey to find the cure for a Tatarigami's curse, Ashitaka finds himself in the middle of a war between forest gods and Tatara, a mining colony.",
+      "rating": { "rate": 8.4, "votes": 350000 },
+      "releaseDate": "1997-07-12",
+      "cast": "Yōji Matsuda, Yuki Saito, Yuriko Ishida",
+      "isFav": false,
+      "isWatched": false
+    }
+  ]
+}
