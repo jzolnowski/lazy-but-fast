@@ -1,0 +1,19 @@
+<section class="recently-watched">
+  <h2>Recently Watched</h2>
+  <div class="movies-container">
+    @if (store.loading()) {
+      <div class="loading-container">
+        <mat-spinner [diameter]="40"></mat-spinner>
+      </div>
+    } @else if (store.status() === status.Error) {
+      <span>The request failed: {{ store.error() }}</span>
+      <button (click)="store.reload()">Retry</button>
+    } @else {
+      <div class="movie-list">
+        @for (movie of recentlyWatched(); track movie.id) {
+          <app-movie [movie]="movie" />
+        }
+      </div>
+    }
+  </div>
+</section>
