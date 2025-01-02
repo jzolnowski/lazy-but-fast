@@ -1,0 +1,13 @@
+.movie-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  content-visibility: auto;
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: white;
+  }
+}
