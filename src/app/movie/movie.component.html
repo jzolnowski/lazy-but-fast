@@ -1,0 +1,10 @@
+<div class="movie-container">
+  <img
+    [ngSrc]="movie().image"
+    width="200"
+    height="300"
+    placeholder
+    [priority]="isPriority()"
+    [alt]="movie().title"
+  />
+</div>

@@ -1,0 +1,53 @@
+<div class="movie-details">
+  <div class="movie-details-body">
+    <div class="relative">
+      <img
+        [ngSrc]="movie().image"
+        width="150"
+        height="200"
+        [alt]="movie().title"
+        [priority]="isPriority()"
+      />
+      <div class="icon-bar">
+        <mat-icon
+          (click)="toggleFavClick()"
+          [class.active]="movie().isFav"
+        >
+          {{ movie().isFav ? 'favorite' : 'favorite_border' }}
+        </mat-icon>
+        <mat-icon
+          (click)="markAsWatchedClick()"
+          [class.active]="movie().isWatched"
+        >
+          {{ movie().isWatched ? 'visibility' : 'visibility_outlined' }}
+        </mat-icon>
+      </div>
+    </div>
+    <div class="movie-info" (click)="toggleDetails()">
+      <div>
+        <h3>{{ movie().title }}</h3>
+        <p>{{ movie().releaseDate | date }}</p>
+        <p class="genre">{{ movie().genre }}</p>
+      </div>
+      <div class="movie-info-footer">
+        <div class="rating">
+          <span class="rate">{{ movie().rating.rate }}/10</span>
+          <span class="votes">({{ movie().rating.votes }} votes)</span>
+        </div>
+        <mat-icon>
+          <span class="material-symbols-outlined">
+            {{ isSelected() ? 'keyboard_arrow_up' : 'keyboard_arrow_down' }}
+          </span>
+        </mat-icon>
+      </div>
+    </div>
+  </div>
+  @if (isSelected()) {
+    <div class="movie-details-expand" [@slideDown]>
+      <div class="info">
+        <p>{{ movie().cast }}</p>
+      </div>
+      <p class="description">{{ movie().desc }}</p>
+    </div>
+  }
+</div>

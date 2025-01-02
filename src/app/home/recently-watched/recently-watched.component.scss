@@ -1,0 +1,41 @@
+.recently-watched {
+  background-color: white;
+  padding: 40px 20px 70px 20px;
+  height: 800px;
+  margin: 0 auto;
+
+  h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #333;
+  }
+
+  .movies-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    .movie-list {
+      display: flex;
+      gap: 40px;
+      max-width: 80%;
+      overflow-x: auto;
+      margin: 0 auto;
+
+      &::-webkit-scrollbar {
+        height: 8px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 4px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 4px;
+      }
+    }
+  }
+}
