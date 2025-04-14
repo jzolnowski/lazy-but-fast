@@ -1,3 +1,4 @@
+
 @if (store.loading()) {
   <div class="loading-container">
     <mat-spinner [diameter]="40"></mat-spinner>
@@ -9,7 +10,9 @@
   <div class="movie-list">
     <h1>All Movies</h1>
     @for (movie of store.movies(); track movie.id; let  i = $index) {
-      <app-movie-details [movie]="movie" (update)="update($event)" />
+      @defer(hydrate on viewport) {
+        <app-movie-details [movie]="movie" [isPriority]="i < 5" (update)="update($event)" />
+      }
     }
   </div>
 }

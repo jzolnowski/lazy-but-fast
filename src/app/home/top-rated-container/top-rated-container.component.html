@@ -11,7 +11,7 @@
     } @else {
       <div class="movie-list">
         @for (movie of topRatedMovies(); track movie.id) {
-          <app-movie [movie]="movie" />
+          <app-movie [movie]="movie" [isPriority]="true" />
         }
       </div>
     }

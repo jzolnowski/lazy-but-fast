@@ -43,7 +43,9 @@
       </div>
     </div>
   </div>
-  @if (toggled()) {
+  @defer(on interaction(expand)) {
     <app-movie-expanded [movie]="movie()"></app-movie-expanded>
+  } @placeholder () {
+    Loading...
   }
 </div>

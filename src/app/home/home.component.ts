@@ -9,15 +9,14 @@ import { RecentlyWatchedComponent } from './recently-watched/recently-watched.co
   template: `
     <main>
       <app-top-rated-container />
-      <app-recently-watched />
+      @defer (hydrate on viewport) {
+        <app-recently-watched />
+      }
     </main>
   `,
   styles: [`
     main {
       min-height: 100vh;
-    }
-    app-recently-watched, app-top-rated-container {
-      content-visibility: auto;
     }
   `]
 })
